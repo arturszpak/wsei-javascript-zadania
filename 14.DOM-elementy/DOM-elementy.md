@@ -8,9 +8,9 @@ Stwórz funkcję i przekaż do niej jako parametr element short-list. Następnie
 
 1. Kod html wewnętrzny
 2. kod html zewnętrzy
-3. listę klass elementu w postaci stringu
-4. listę klass elementu w postaci tablicy
-5. obiekt dataset
+3. listę klass elementu w postaci stringu ??
+4. listę klass elementu w postaci tablicy ??
+5. obiekt dataset ??
 
 #### Zadanie 3
 
@@ -26,8 +26,8 @@ Zmień klasę elementowi o id spanText na dowolną
 
 #### Zadanie 6
 
-Napisz funkcję która przyjmie jako parametr listę klass elementu o id classes. Następnie funkcja powinna wypisać w konsoli pojedynczo wszystkie klasy a na końcu wyświetlić string z połączonych klass znakiem '+'. 
-Następnie usuń wszystkie klasy temu elementowi i wypisz w konsoli tekst: "Usunięto wszystkie klasy". 
+Napisz funkcję która przyjmie jako parametr listę klass elementu o id classes. Następnie funkcja powinna wypisać w konsoli pojedynczo wszystkie klasy a na końcu wyświetlić string z połączonych klass znakiem '+'.
+Następnie usuń wszystkie klasy temu elementowi i wypisz w konsoli tekst: "Usunięto wszystkie klasy".
 
 #### Zadanie 7
 
@@ -38,14 +38,14 @@ Znajdź wszystkie elementy li w elemencie longList. Przekaż te elementy do funk
 Napisz funkcję która będzie przyjmować parametr typu string. Następnie string ten zapisz w postaci obiektu:
 
 {
-    newClass: 'string_z_parametru'
+newClass: 'string_z_parametru'
 }
 
 Obiekt ten przekaż do drugiej funkcji w której odczytasz string z obiektu i przypisz go do zmiennej. Następnie ustaw taką klasę elementowi o id myDiv.
 
 #### Zadanie 9
 
-Napisz funkcję która będzie dodawać odpowiednią klasę do elementu o id "numbers" w zależności od przekazanego parametru. Parametr powinien być losową liczbą z zakresu 0-10. 
+Napisz funkcję która będzie dodawać odpowiednią klasę do elementu o id "numbers" w zależności od przekazanego parametru. Parametr powinien być losową liczbą z zakresu 0-10.
 Jeśli liczba będzie parzysta ustaw klasę 'even' jak nieparzysta 'odd;
 
 #### Zadanie 10

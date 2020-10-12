@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            margin-bottom: 5rem;
+        }
+        form > *{
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
     <div id="root"></div>
+    <form>
+        <p>dodaj nowy rekord</p>
+        <input type="text" id="name" placeholder="Imię">
+        <input type="text" id="lastName" placeholder="nazwisko">
+        <input type="number" id="age" placeholder="wiek">
+        <input type="number" id="childrenNumber" placeholder="liczba dzieci">
+        <button id="createTableBtn">Utwórz</button>
+        <button id="addMoreBtn">Wiecej</button>
+    </form>
     <script src="./script.js" type="text/javascript"></script>
 </body>
 </html>

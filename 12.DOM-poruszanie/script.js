@@ -19,7 +19,6 @@
 
 // function showDivColor(parent) {
 //     parent.addEventListener("click", function () {
-//         // A wystarczyłoby dopisać klase czy ID :/
 //         const txt = document.querySelector("#ex2").children[0].children[0].children[0].children[1].children[0].children[0].textContent;
 //         console.log(txt);
 //     });
@@ -34,7 +33,7 @@
 //         if (btn.nextElementSibling.style.display === "none") btn.nextElementSibling.style.display = 'inline';
 //         else btn.nextElementSibling.style.display = 'none';
 
-//         //Zadanie4
+// //Zadanie4
 //         const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
 //         btn.parentNode.style.backgroundColor = randomColor;
 

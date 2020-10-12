@@ -74,54 +74,49 @@
 
     //zadanie 4
 
-    function Ladder(maxSteps) {
-        this.maxSteps = maxSteps;
-        let currentStep = 0;
+    // function Ladder(maxSteps) {
+    //     this.maxSteps = maxSteps;
+    //     let currentStep = 0;
 
-        const txt = {
-            startStep: 'Start step: ',
-            goingUp: "You're climbing up, step: ",
-            goingDown: "You're going down, step: ",
-            maxHeight: "You've reached the top of the ladder!",
-            minHeight: "You've reached the bottom of the ladder!",
-        }
+    //     const txt = {
+    //         startStep: 'Start step: ',
+    //         goingUp: "You're climbing up, step: ",
+    //         goingDown: "You're going down, step: ",
+    //         maxHeight: "You've reached the top of the ladder!",
+    //         minHeight: "You've reached the bottom of the ladder!",
+    //     }
 
-        //Going up method
-        this.goUp = function (stepsToGo) {
-            console.log(txt.startStep + currentStep);
+    //     this.goUp = function (stepsToGo) {
+    //         console.log(txt.startStep + currentStep);
 
-            for (let i = 0; i < stepsToGo; i++) {
-                if (currentStep < maxSteps) {
-                    console.log(`${txt.goingUp}${++currentStep}`);
-                } else {
-                    console.log(`${txt.maxHeight}`);
-                    currentStep = maxSteps;
-                    break;
-                }
-            }
-        }
+    //         for (let i = 0; i < stepsToGo; i++) {
+    //             if (currentStep < maxSteps) {
+    //                 console.log(`${txt.goingUp}${++currentStep}`);
+    //             } else {
+    //                 console.log(`${txt.maxHeight}`);
+    //                 currentStep = maxSteps;
+    //                 break;
+    //             }
+    //         }
+    //     }
 
-        //Going down method
-        this.goDown = function (stepsToGo) {
-            console.log(txt.startStep + currentStep);
+    //     this.goDown = function (stepsToGo) {
+    //         console.log(txt.startStep + currentStep);
 
-            for (let i = 0; i < stepsToGo; i++) {
-                if (currentStep > 0) {
-                    currentStep--;
-                    console.log(`${txt.goingDown}${currentStep}`);
-                } else {
-                    console.log(`${txt.minHeight}`);
-                    currentStep = 0;
-                    break;
-                }
-            }
-        }
+    //         for (let i = 0; i < stepsToGo; i++) {
+    //             if (currentStep > 0) {
+    //                 currentStep--;
+    //                 console.log(`${txt.goingDown}${currentStep}`);
+    //             } else {
+    //                 console.log(`${txt.minHeight}`);
+    //                 currentStep = 0;
+    //                 break;
+    //             }
+    //         }
+    //     }
 
-    }
+    // }
 
-    //Set Instance with ladder's height argument
-    const l1 = new Ladder(10);
-
-    //Invoke the goUp/goDown method with argument which tells how many steps to go
-    l1.goUp(2);
-    l1.goDown(1);
+    // const l1 = new Ladder(10);
+    // l1.goUp(2);
+    // l1.goDown(1);

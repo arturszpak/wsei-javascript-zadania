@@ -10,7 +10,7 @@
 
 // task1(task1Elements);
 
-//zadanie2 nieskoczone
+//zadanie2
 
 // const task2Element = document.querySelector(".short-list");
 
@@ -18,7 +18,13 @@
 //     //punkt1
 //     console.log(list.innerHTML);
 //     //punkt2
-//     console.log(list.parentNode.innerHTML);
+//     console.log(list.outerHTML);
+//     //punkt3
+//     console.log(list.className);
+//     //punkt4
+//     console.dir(list.classList);
+//     //punkt5
+// 	console.log(list.dataset);
 // }
 
 // task2(task2Element);

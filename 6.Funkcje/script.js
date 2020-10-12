@@ -18,7 +18,7 @@ showNumber(77);
 const numbers = [1, 3, 3, 4, 5, 6];
 
 function showNumbers(arr) {
-    console.log(arr);
+    return arr;
 }
 
 showNumbers(numbers);

@@ -18,23 +18,17 @@ arr.forEach(a => console.log(a));
 
 //punkt4
 arr.forEach((a, i) => {
-    if (i % 2 == 0) {
-        console.log(a);
-    }
+    if (i % 2 == 0) console.log(a);
 })
 
 //punkt5
-
 arr.forEach(a => {
-    if (typeof a === "string")
-        console.log(a);
-});
+    if (typeof a === "string") console.log(a);
+})
 
 //punkt6
-
 arr.forEach(a => {
-    if (typeof a === "number")
-        console.log(a);
+    if (typeof a === "number") console.log(a);
 })
 
 //ZADANIE3
@@ -48,8 +42,8 @@ let sum = numbers.reduce((a, b) => a - b, 0);
 console.log(sum);
 
 //punkt3 srednia
-let sum = (numbers.reduce((a, b) => (a + b), 0)) / numbers.length;
-console.log(sum);
+let avg = (numbers.reduce((a, b) => (a + b), 0)) / numbers.length;
+console.log(avg);
 
 //punkt4 parzyste
 console.log(numbers.filter(n => n % 2 == 0));
@@ -90,11 +84,9 @@ evenAvg(numbers);
 //zadanie7
 
 const nums = [2, 7, 5, 34, 1, 65];
-
 function compareNumbers(a, b) {
-    return a - b
+    return a - b;
 }
-
 console.log(nums.sort(compareNumbers));
 
 

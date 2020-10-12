@@ -8,9 +8,9 @@ Stwórz funkcję i przekaż do niej jako parametr element short-list. Następnie
 
 1. Kod html wewnętrzny
 2. kod html zewnętrzy
-3. listę klass elementu w postaci stringu ??
-4. listę klass elementu w postaci tablicy ??
-5. obiekt dataset ??
+3. listę klass elementu w postaci stringu
+4. listę klass elementu w postaci tablicy
+5. obiekt dataset
 
 #### Zadanie 3
 

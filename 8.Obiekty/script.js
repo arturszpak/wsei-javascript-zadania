@@ -31,20 +31,15 @@ numArr.sumArr([5, 88, 1, 33, 7, 11]);
 console.log(numArr.sum);
 
 //zadanie4
-
 let car = {
     name: "BMW",
     age: 12,
     color: "silver",
 }
-
-for (const prop in car) {
+for (const prop in car)
     console.log(`${prop}: ${car[prop]}`);
-}
-
 
 //zadanie5
-
 let car = {
     name: "BMW",
     age: 12,
@@ -63,7 +58,7 @@ console.log(car.engine.capacity);
 
 car.type = "combi";
 car.engineSound = function () {
-    return "łututututu";
+    return "Hello";
 }
 
 console.log(car.type);
